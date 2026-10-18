@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syed Wajid Ali Shah | Software Engineering Student</title>
+  <meta name="description" content="Portfolio of Syed Wajid Ali Shah, BS Software Engineering student at The University of Lahore. Projects, skills, graphic design and contact details." />
+  <meta name="theme-color" content="#0f1226" />
+
+  <!-- Google Fonts (optional: the site still works with fallback fonts if offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Lets keyboard users jump straight to the content -->
+  <a class="skip-link" href="#home">Skip to main content</a>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Syed Wajid Ali Shah, home">
+        <span class="logo-mark"><img src="Screenshot_20260317-044712.jpg" alt="" /></span>
+        <span class="logo-text">Wajid Ali</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#design" class="nav-link">Graphic Design</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HOME ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I am</p>
+          <h1 id="hero-title">Syed Wajid Ali Shah</h1>
+          <p class="hero-role">BS Software Engineering Student</p>
+          <p class="hero-sub">
+            6th semester at The University of Lahore. I love learning new technologies,
+            solving problems and building useful software.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="false">
+          <!--
+            PROFILE PHOTO:
+            To use your own photo, put it in an "images" folder (for example images/profile.jpg)
+            and replace the <div class="avatar">...</div> below with:
+            <img class="avatar-img" src="images/profile.jpg" alt="Photo of Syed Wajid Ali Shah" />
+          -->
+          <img class="avatar-img" src="Screenshot_20260317-044712.jpg" alt="Photo of Syed Wajid Ali Shah" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Get to know me</p>
+          <h2 id="about-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              My name is <strong>Syed Wajid Ali Shah</strong>, and I am from Booni, Upper Chitral,
+              Khyber Pakhtunkhwa, Pakistan. I am currently pursuing a Bachelor of Science in
+              Software Engineering at The University of Lahore.
+            </p>
+            <p>
+              I am passionate about learning new technologies, solving problems and developing my
+              programming skills. I have experience with academic programming projects and website
+              development, along with communication, leadership and teamwork skills.
+            </p>
+            <p>
+              My goal is to improve my technical skills, build useful software solutions, work on
+              real-world projects and grow a successful career in software engineering and freelancing.
+            </p>
+          </div>
+
+          <aside class="about-card reveal" aria-label="Quick facts and interests">
+            <h3>Quick Facts</h3>
+            <ul class="facts">
+              <li><span>Location</span> Booni, Upper Chitral, Pakistan</li>
+              <li><span>University</span> The University of Lahore</li>
+              <li><span>Degree</span> BS Software Engineering</li>
+              <li><span>Semester</span> 6th</li>
+            </ul>
+            <h3>Beyond Technology</h3>
+            <ul class="chips">
+              <li>Cricket</li>
+              <li>Football</li>
+              <li>Badminton</li>
+              <li>Music</li>
+              <li>Adventures</li>
+              <li>Graphic Design</li>
+              <li>Canva</li>
+              <li>Posters &amp; Banners</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">What I work with</p>
+          <h2 id="skills-title">Skills</h2>
+        </div>
+
+        <h3 class="sub-title reveal">Technical Skills</h3>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-top"><h4>HTML</h4></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><h4>CSS</h4></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><h4>JavaScript</h4></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><h4>Python</h4></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><h4>C++</h4></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><h4>SQL &amp; Databases</h4></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-top"><h4>Canva Designer</h4></div>
+          </article>
+        </div>
+
+        <h3 class="sub-title reveal">Soft Skills</h3>
+        <ul class="soft-grid">
+          <li class="soft-card reveal">Communication</li>
+          <li class="soft-card reveal">Leadership</li>
+          <li class="soft-card reveal">Teamwork</li>
+          <li class="soft-card reveal">Problem-solving</li>
+          <li class="soft-card reveal">Creativity</li>
+          <li class="soft-card reveal">Willingness to learn</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Things I have built</p>
+          <h2 id="projects-title">Academic Projects</h2>
+        </div>
+
+        <!--
+          GITHUB LINKS:
+          Each project has a GitHub button with an empty data-github="".
+          When you upload a project, paste its real URL inside the quotes, for example:
+          data-github="https://github.com/your-username/your-repo"
+          Until then the button stays inactive.
+        -->
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-icon" aria-hidden="true">01</div>
+            <h3>ATM Machine</h3>
+            <p>A console-based academic project demonstrating basic ATM operations and object-oriented programming concepts.</p>
+            <ul class="tags"><li>C++</li><li>OOP</li><li>Console</li></ul>
+            <a href="#" class="btn btn-outline btn-small github-btn" data-github="" aria-disabled="true">GitHub</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon" aria-hidden="true">02</div>
+            <h3>Calculator</h3>
+            <p>A calculator project designed to perform basic mathematical operations.</p>
+            <!-- Add the technologies you used here, for example <li>Python</li> -->
+            <ul class="tags"><li>Academic</li><li>Basic Math</li></ul>
+            <a href="#" class="btn btn-outline btn-small github-btn" data-github="" aria-disabled="true">GitHub</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon" aria-hidden="true">03</div>
+            <h3>Library Management System</h3>
+            <p>An academic project focused on managing library records and book-related operations.</p>
+            <!-- Add the technologies you used here -->
+            <ul class="tags"><li>Academic</li><li>Records</li></ul>
+            <a href="#" class="btn btn-outline btn-small github-btn" data-github="" aria-disabled="true">GitHub</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon" aria-hidden="true">04</div>
+            <h3>Login and Registration Website</h3>
+            <p>A website project involving HTML, CSS, JavaScript, PHP, XAMPP and database integration.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>XAMPP</li><li>Database</li></ul>
+            <a href="#" class="btn btn-outline btn-small github-btn" data-github="" aria-disabled="true">GitHub</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon" aria-hidden="true">05</div>
+            <h3>Student Result Management System</h3>
+            <p>A programming project focused on managing student information, subjects, marks and results.</p>
+            <ul class="tags"><li>Python</li></ul>
+            <a href="#" class="btn btn-outline btn-small github-btn" data-github="" aria-disabled="true">GitHub</a>
+          </article>
+        </div>
+        <p class="note reveal">GitHub buttons will become active once real repository links are added.</p>
+      </div>
+    </section>
+
+    <!-- ============ GRAPHIC DESIGN & LEADERSHIP ============ -->
+    <section class="section section-alt" id="design" aria-labelledby="design-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Creativity and community</p>
+          <h2 id="design-title">Graphic Design &amp; Leadership</h2>
+        </div>
+
+        <div class="design-grid">
+          <article class="design-card reveal"><h3>Canva Graphic Design</h3><p>Creating clean, eye-catching designs using Canva.</p></article>
+          <article class="design-card reveal"><h3>Social Media Posters</h3><p>Posters made for social media and events.</p></article>
+          <article class="design-card reveal"><h3>Panaflex &amp; Banner Designs</h3><p>Large-format banner and panaflex layouts.</p></article>
+          <article class="design-card reveal"><h3>Creative Visual Content</h3><p>Visual ideas that communicate a message clearly.</p></article>
+          <article class="design-card reveal"><h3>Leadership &amp; Teamwork</h3><p>Guiding and working with others to reach shared goals.</p></article>
+          <article class="design-card reveal"><h3>Community Volunteering</h3><p>Taking part in community and volunteer activities.</p></article>
+        </div>
+
+        <h3 class="sub-title reveal">Design Gallery</h3>
+        <!--
+          GALLERY:
+          Replace each placeholder <div class="gallery-item">...</div> with your own design, for example:
+          <figure class="gallery-item"><img src="images/poster1.jpg" alt="Describe the poster" /></figure>
+        -->
+        <div class="gallery">
+          <div class="gallery-item reveal" role="img" aria-label="Design placeholder 1"><span>Your poster here</span></div>
+          <div class="gallery-item reveal" role="img" aria-label="Design placeholder 2"><span>Your banner here</span></div>
+          <div class="gallery-item reveal" role="img" aria-label="Design placeholder 3"><span>Your Canva design here</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">My journey</p>
+          <h2 id="education-title">Education</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <h3>Bachelor of Science in Software Engineering (BSSE)</h3>
+              <p class="timeline-place">The University of Lahore</p>
+              <p class="timeline-status">Currently in the 6th Semester</p>
+            </div>
+          </li>
+        </ol>
+
+        <!-- ============ CAREER GOALS ============ -->
+        <div class="section-head goals-head reveal" id="goals">
+          <p class="eyebrow">Where I am heading</p>
+          <h2>Career Goals</h2>
+        </div>
+        <div class="goals-grid">
+          <article class="goal-card reveal"><h3>Web Development</h3><p>Building responsive, accessible websites.</p></article>
+          <article class="goal-card reveal"><h3>Python Programming</h3><p>Growing my skills with Python projects.</p></article>
+          <article class="goal-card reveal"><h3>Software Engineering</h3><p>Designing and building useful software solutions.</p></article>
+          <article class="goal-card reveal"><h3>Freelancing</h3><p>Working on real-world projects for real clients.</p></article>
+          <article class="goal-card reveal"><h3>Graphic Design</h3><p>Developing my design and visual skills.</p></article>
+          <article class="goal-card reveal"><h3>Continuous Learning</h3><p>Always improving through learning and practice.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Let's talk</p>
+          <h2 id="contact-title">Contact</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Get in touch</h3>
+            <p>I am open to internships, university opportunities and freelance work. Send me a message.</p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:shahwajidalisyed@gmail.com">shahwajidalisyed@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact-label">Location</span>
+                <span>Booni, Upper Chitral, Pakistan</span>
+              </li>
+              <!--
+                PHONE NUMBER (hidden by default for privacy):
+                To show it publicly later, remove the comment markers around the block below.
+
+              <li>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+923408461262">0340 8461262</a>
+              </li>
+              -->
+            </ul>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="nameError" />
+              <p class="error" id="nameError" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="emailError" />
+              <p class="error" id="emailError" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required aria-describedby="subjectError" />
+              <p class="error" id="subjectError" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required aria-describedby="messageError"></textarea>
+              <p class="error" id="messageError" role="alert"></p>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Syed Wajid Ali Shah. All rights reserved.</p>
+      <p>BS Software Engineering &middot; The University of Lahore</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" type="button">&#8593;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
